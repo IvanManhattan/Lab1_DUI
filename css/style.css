@@ -361,7 +361,42 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	border-right: none;
 }
 
-/*---------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
+
+/*----------------------------PAGE SCOTCH----------------------------------*/
+
+.opportunities__container{
+	padding: 276px 0px 0px 0px;
+	display: flex;
+}
+
+.opportunities__content-part{
+	padding: 0px 0px 0px 45px ;
+}
+.content-part__all__text{
+	padding: 80px 0px 0px 0px;
+	display: flex;
+}
+
+.content-part__title{
+	width: 245px;
+	height: 240px;
+	font-size: 36px;
+	font-family: Cardo;
+	font-weight: bold;
+	text-decoration: underline;
+	text-decoration-style:solid;
+	line-height: 1.5;
+}
+
+.content-part__text{
+	padding: 10px 0px 0px 47px;
+	width: 320px;
+	height: 178px;
+	text-align: justify;
+	color: #000;
+	line-height: 1.1;
+}
 
 
 /*---------------------------------------------------------------*/
