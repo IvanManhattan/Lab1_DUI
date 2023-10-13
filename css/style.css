@@ -50,7 +50,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 
 ._container {
-	max-width: 1198px;
+	max-width: 1202px;
 	margin: 0px auto;
 	box-sizing: content-box;
 }
@@ -299,31 +299,32 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 .item-variant__image {
 	position: relative;
 	display: inline-block;
-	padding: 0px 0px 64px 0px;
+	padding: 0px 0px 60px 0px;
 }
 
 .item-variant__image::after {
 	content: " ";
 	background: #000;
-	width: 53px;
-	height: 4px;
-	bottom: 32px;
+	width: 52px;
+	height: 3px;
+	bottom: 26px;
 	left: 0px;
 	position: absolute;
 }
 
 .item-variant__title {
 	font-size: 36px;
-	font-weight: 800;
+	font-weight: 900;
 	font-family: Cardo;
 }
 
 .item-variant__title:not(:last-child) {
-	margin: 0px 0px 34px 0px;
+	margin: 0px 0px 26px 0px;
 }
 
 .item-variant__text {
 	text-align: justify;
+	font-size: 18px;
 	color: #000;
 }
 
@@ -339,7 +340,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 /* ! calculate padding again later*/
 .places__header {
-	padding: 400px 0px 0px 0px;
+	padding: 390px 0px 0px 0px;
 }
 
 .header-block {
@@ -352,11 +353,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 
 .header-block__title {
-	font-size: 96px;
+	font-size: 98px;
 	font-family: Cardo;
 	text-align: center;
-	font-weight: 800;
-	padding: 62px 0px 65px 0px;
+	font-weight: 1000;
+	padding: 46px 0px 65px 0px;
 	
 }
 
@@ -370,7 +371,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 .header-block__subtitles {
 	display: inline-flex;
-	font-size: 20px;
+	font-size: 24px;
 	width: 100%;
 	justify-content: center;
 }
