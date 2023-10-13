@@ -162,6 +162,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 .page__addvantages {
 }
+.page__customer-reviews {
+}
 
 /*-----------------------------PAGE__1-----------------------------*/
 
@@ -490,7 +492,130 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*---------------------------------------------------------------*/
 
 
+/*-----------------------------CUSTOMER_REVIEWS-----------------------------*/
+.swiper {
+	
+	width: 100%;
+	height: 100%;
+}
 
+.swiper-slide {
+	
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+
+.customer-reviews {
+}
+.customer-reviews__container {
+}
+
+.customer-reviews__header {
+	text-align: center;
+	
+}
+.header-block-review {
+}
+.header-block-review__title {
+	padding: 315px 0px 0px 0px;
+	margin: 0px 0px 48px 0px;
+	font-weight: 800;
+	font-size: 80px;
+	font-family: Cardo;
+}
+.customer-reviews__customers {
+	
+}
+.customers {
+	
+}
+
+.customers__wrapper {
+	
+}
+
+.customers__customer {
+	border: 4px solid #232323;
+	border-radius: 12px;
+}
+.customer {
+	margin: 0px 0px 44px 0px;
+}
+
+.customer__wrapper {
+	margin: 74px 41px 69px 42px;
+}
+
+.customer__icon {
+
+}
+.customer__name {
+	font-weight: 800;
+	font-size: 20px;
+	margin: 49px 0px 24px 0px;
+}
+.customer__text {
+	color: #757575;
+}
+
+.swiper-pagination {
+	
+}
+
+.swiper-slide img {
+
+	max-width: 136px;
+	min-height: 136px;;
+	object-fit: cover;
+}
+
+.customer-reviews__customers [class^="swiper-button-"]::after {
+	content: "";
+}
+
+.customer-reviews__customers .swiper-button-prev {
+/*	background-image: url(/img/button_small_left.jpg);
+	position: absolute;*/
+	min-width: 87px;
+	min-height: 77px;
+	top: 200px;
+	left: -40px;
+}
+
+
+.customer-reviews__button-back {
+	cursor: pointer;
+	position: relative;
+	z-index: 20;
+	top: -320px;
+	left: -42px;
+}
+
+.customer-reviews__button-forward {
+	cursor: pointer;
+	position: relative;
+	z-index: 20;
+	top: -396.5px;
+	left: 1150px;
+}
+
+/*---------------------------------------------------------------*/
 
 /*-----------------------------FOOTER-----------------------------*/
 

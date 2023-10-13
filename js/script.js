@@ -1,3 +1,19 @@
+var swiper = new Swiper(".customer-reviews__customers", {
+	slidesPerView: 3,
+	spaceBetween: 30,
+	slidesPerGroup: 3,
+	loop: true,
+	loopFillGroupWithBlank: true,
+	/**pagination: {
+		el: ".swiper-pagination",
+		clickable: true,
+	},**/
+	navigation: {
+		nextEl: ".customer-reviews__button-back",
+		prevEl: ".customer-reviews__button-forward",
+	},
+});
+
 
 const addAdvantages = document.querySelectorAll(".list-element__symbol");
 const goMyTravelLogs = document.querySelector(".memory__buttons");
