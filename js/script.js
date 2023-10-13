@@ -21,6 +21,7 @@ const contactUs = document.querySelector(".header__button");
 const reserveTicket = document.querySelector(".main-block__buttons");
 const arrowButton = document.querySelector(".content-part__button");
 const menuButtons = document.querySelectorAll(".menu__list");
+const sendForm = document.querySelector('.main-form__button');
 
 function doAddAdvantages() {
 	// TODO
@@ -50,4 +51,16 @@ menuButtons.forEach(menuButton => {
 	menuButton.addEventListener("click", () => {
 		// TODO
 	});
+});
+
+const formElems = document.getElementById("form-main");
+console.log(formElems);
+
+function handleFormSubmit(event) {
+	event.preventDefault();
+}
+
+
+sendForm.addEventListener("submit", (event) => {
+	event.preventDefault();
 });
