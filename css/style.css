@@ -395,12 +395,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 
 .opportunities__image {
-	padding: 269px 0px 0px 0px;
+	padding: 269px 0px 47px 0px;
 }
 
 .content-part{
-	padding: 269px 0px 50px 0px;
-	margin: 0px 2px 0px 78px;
+	padding: 269px 0px 0px 0px;
+	margin: 0px 2px 0px 43px;
 }
 .content-part__all-text {
 	display: flex;
@@ -413,17 +413,19 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 .content-part__title {
 	font-size: 36px;
-	font-weight: 900;
+	font-weight: 1000;
 	font-family: Cardo;
 	text-decoration: underline;
-	line-height: 1.3;
-	margin: 39px 23px 0px 0px;
+	line-height: 1.4;
+	margin: 30px 0px 0px 0px;
 	color: #232323;
 }
 
 .content-part__text {
-	margin: 45px 0px 0px 23px;
+	margin: 38px 0px 0px 0px;
 	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.2;
 	text-align: justify;
 	color: #232323;
 }
@@ -476,12 +478,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 #choose_text2{
 	position: absolute;
-	top: 425px;
+	top: 422px;
 }
 .content-part-black__title2{
 	font-weight: 700;
 	font-size: 24px;
-	margin-bottom: 21px;
+	margin-bottom: 15px;
 	font-family: Lato;
 }
 .content-part-black__text{
@@ -489,6 +491,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	font-size: 16px;
 	text-align: justify;
 	font-family: Lato;
+	line-height: 1.2;
 }
 .choose__image{
 	position:absolute;
@@ -537,6 +540,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 .list-element__text {
 	margin-left: 44px;
+	font-weight: 400;
+	font-size: 16px;
 	position: absolute;
 	top: 40%;
 }
