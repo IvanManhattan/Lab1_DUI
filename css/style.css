@@ -40,6 +40,21 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
+.menu__item:after{
+	display: block;
+	position: relative;
+	left: 0;
+	width: 0;
+	height: 3px;
+	background-color: #232323;
+	content: "";
+	transition: width 0.5s ease-out;
+}
+
+.menu__item:hover::after{
+	width: 100%;
+}
+
 
 .wrapper {
 	min-height: 100%;
@@ -387,7 +402,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 /*----------------------------------------------------------------*/
 
-/*----------------------------PAGE SCOTCH----------------------------------*/
+/*----------------------------PAGE_TAPE----------------------------------*/
 
 
 .opportunities__container{
@@ -395,6 +410,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 
 .opportunities__image {
+	position: relative;
 	padding: 269px 0px 47px 0px;
 }
 
@@ -409,6 +425,14 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 .content-part__image{
 	
 	margin: 0px 0px 39px 0px;
+}
+
+.image__tape{
+	position: absolute;
+	opacity: 0.9;
+	z-index: 10;
+	top: 524px;
+	left: -35px;
 }
 
 .content-part__title {
