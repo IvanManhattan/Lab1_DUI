@@ -46,7 +46,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
-	background: url(/img/background.jpg) 0 0/cover no-repeat;
+	background: url(../img/background.jpg) 0 0/cover no-repeat;
 }
 
 ._container {
@@ -151,7 +151,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 .page__memory {
 	z-index: 5;
-	background: url(/img/background_black_1.jpg) 0 0/cover no-repeat;
+	background: url(../img/background_black_1.jpg) 0 0/cover no-repeat;
 }
 
 .page__variants {
@@ -164,7 +164,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 
 .page__choose{
-   background: url(/img/background_black_2.jpg) 0 0/cover no-repeat;
+   background: url(../img/background_black_2.jpg) 0 0/cover no-repeat;
 }
 /*-----------------------------PAGE__1-----------------------------*/
 
@@ -820,7 +820,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	flex-wrap: wrap;
 	justify-content: space-around;
 	margin-top: 200px;
-	background: url(/img/footer-background.jpg) 0 0/cover no-repeat;
+	background: url(../img/footer-background.jpg) 0 0/cover no-repeat;
 }
 
 .FooterName h2 {
