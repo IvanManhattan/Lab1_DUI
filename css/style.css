@@ -852,11 +852,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 .container{
 	width: 1182px;
 	height:575px;
-	display: flex;
 	margin-top:100px;
-
 	margin-left:100px;
-
+	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
@@ -884,7 +882,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 }
 .links-head{
-	width:150px;
 	font-size: 25px;
 	font-family: Lato;
 	font-weight: 700;
@@ -926,8 +923,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	font-weight: 500;
 	color: #232323;
 	text-decoration: none;
-	display: inline-block;
-	position: relative;
 }
 
 .section1 a:hover, .section2 a:hover, .section3 a:hover, .section4 a:hover {
